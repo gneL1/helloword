@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ht_Activity"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/Tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="测试结果" />
+
+    <Button
+        android:id="@+id/Btn_1"
+        android:text="点击延迟1s + 显示此处button1"
+        android:textAllCaps="false"
+        android:layout_below="@+id/Tv_1"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Btn_2"
+        android:textAllCaps="false"
+        android:text="点击延迟3s + 显示此处button2"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/Btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Btn_3"
+        android:textAllCaps="false"
+        android:text="结束线程的消息循环"
+
+        android:layout_below="@id/Btn_2"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
